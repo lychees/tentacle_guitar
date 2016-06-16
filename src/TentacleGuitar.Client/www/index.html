@@ -1,25 +1,22 @@
-<!DOCTYPE html>
+锘�<!DOCTYPE html>
 <html>
     <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
-    <!--
-        必要时在以下 META 标记中自定义内容安全策略。将 "unsafe-inline" 添加到 default-src 以启动内联 JavaScript。
-      有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=617521
-    -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8"/>        
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>TentacleGuitar.Client</title>
+        <link href="assets/styles/index.css" rel="stylesheet" />
+        <script src="assets/scripts/platformOverrides.js"></script>
+        <script src="assets/scripts/jquery-1.12.3.min.js"></script>
+        <script src="assets/scripts/jflick.js"></script>
+        <script src="assets/scripts/jflick.default.js"></script>
+        <title>Tentacle Guitar</title>
     </head>
     <body>
-        <div class="app">
-            <p id="deviceready" class="event">正在连接到设备</p>
+        <p class="center"><img src="assets/images/logo.png" class="logo" /></p>
+        <div class="login">
+            <input type="text" class="textbox" placeholder="鎮ㄧ殑鐢ㄦ埛鍚�" />
+            <input type="password" class="textbox" placeholder="鎮ㄧ殑瀵嗙爜" />
         </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
-        <script type="text/javascript" src="scripts/index.js"></script>
     </body>
 </html>
