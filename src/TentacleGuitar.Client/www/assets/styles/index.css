@@ -4,7 +4,7 @@ body {
     -webkit-user-select: none;
     background: url(../images/bg.jpg);
     background-size: 120%; 
-    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-family: 'Microsoft YaHei', 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
     font-size:12px;
 }
 
@@ -28,11 +28,22 @@ body {
     border: none;
     background: none;
     background-color: transparent;
-    height: 24px;
-    line-height: 24px;
+    height: 30px;
+    line-height: 30px;
     font-size:16px;
     color: #fff;
     outline: 0;
     padding-bottom: 3px;
     border-bottom: 1px solid #fff;
+    margin-bottom: 5px;
+}
+
+.button {
+    font-size: 16px;
+    color: #fff;
+    background: rgb(50,50,50);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 8px 13px;
+    text-decoration: none;
 }
